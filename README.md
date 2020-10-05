@@ -1,2 +1,3 @@
 # python_science
-jupyter notebook
+
+Pandas_Cheat_Sheet.pdf
