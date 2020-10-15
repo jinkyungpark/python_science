@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_ae65a37f8d1b466c80103032ccdfe573 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_ae65a37f8d1b466c80103032ccdfe573" ></div>
+        
+</body>
+<script>    
+    
+            var map_ae65a37f8d1b466c80103032ccdfe573 = L.map(
+                "map_ae65a37f8d1b466c80103032ccdfe573",
+                {
+                    center: [37.548567678569086, 126.99419527148791],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_d2340cfa4b4e488ba52d99331ac2b357 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_ae65a37f8d1b466c80103032ccdfe573);
+        
+    
+            var marker_38d1d9f98e254a57a0ee5ab291850bd3 = L.marker(
+                [37.548351, 126.93123],
+                {}
+            ).addTo(map_ae65a37f8d1b466c80103032ccdfe573);
+        
+    
+            marker_38d1d9f98e254a57a0ee5ab291850bd3.bindTooltip(
+                `<div>
+                     마포 던킨도너츠
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6743fbd012a94596a8a935e2298a7509 = L.marker(
+                [37.495593, 127.039032],
+                {}
+            ).addTo(map_ae65a37f8d1b466c80103032ccdfe573);
+        
+    
+            marker_6743fbd012a94596a8a935e2298a7509.bindTooltip(
+                `<div>
+                     강남 던킨도너츠
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b0a91876901c4a6882dcaa34f344a626 = L.marker(
+                [37.655101, 127.050818],
+                {}
+            ).addTo(map_ae65a37f8d1b466c80103032ccdfe573);
+        
+    
+            marker_b0a91876901c4a6882dcaa34f344a626.bindTooltip(
+                `<div>
+                     창동 베스킨라빈스
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
